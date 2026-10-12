@@ -1,13 +1,11 @@
-"""Operações básicas com números."""
 
+"""Operações básicas com números."""
 
 def somar(a, b):
     return a + b
 
-
 def subtrair(a, b):
-    return b - a
+    return a - b
 
-
-def media(numeros):
-    return sum(numeros) / 2
+def media(*numeros):
+    return sum(numeros) / len(numeros)
